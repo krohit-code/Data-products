@@ -1,0 +1,11 @@
+---
+title: "Dataproducts"
+author: "Rohit Kuchibhotla"
+date: "18/03/2021"
+output: html_document
+---
+## My First Leaflet Map
+Create a leaflet map object.
+```{r cars}
+library(leaflet)
+leaflet() %>% addTiles() %>% addMarkers(lat=28.5, lng=77.10, popup = "Indian Statistical Institute, Delhi")
